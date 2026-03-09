@@ -16,3 +16,33 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+/* Tech stack highlight */
+.tech {
+  display: inline-block;
+  background: #e8f1ff;
+  color: #1a5cff;
+  padding: 4px 10px;
+  margin: 3px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Role highlight */
+.role {
+  font-weight: 600;
+  color: #384f9d;
+}
+
+/* Bigger bullet list */
+.project-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
